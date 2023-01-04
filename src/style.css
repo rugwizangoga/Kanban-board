@@ -1,9 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: #f0ffff;
+}
 .nav {
+  width: 80%;
   display: flex;
-  justify-content: space-between;
+  align-items: baseline;
+  gap: 30px;
+  margin: 10px auto;
 }
 
 .nav-menu {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+}
+
+footer {
+  border-top: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  width: 80%;
+  margin: 15px auto;
 }
