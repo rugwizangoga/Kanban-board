@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "watch": "jest --watch *.js",
     "start": "webpack serve --open",
     "build": "webpack"
   },
@@ -22,6 +23,7 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.2",
+    "csv-loader": "^3.0.5",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
@@ -33,9 +35,13 @@
     "stylelint-scss": "^3.21.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "xml-loader": "^1.2.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "jest-environment-jsdom": "^29.3.1"
   },
   "dependencies": {
+    "jest": "^29.3.1",
     "lodash": "^4.17.21"
   }
 }
